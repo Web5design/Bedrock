@@ -4,15 +4,15 @@ A responsive, mobile first 18 column grid. A theoretical grid for today's layout
 Checkout the demo to [see Bedrock in action](http://dfcb.github.com/Bedrock/) and find documentation in css/bedrock.css.
 
 
-## Quick Start
-1. Grab [bedrock.css](https://github.com/tsvensen/bedrock/archive/master.zip)
-2. Include the file before your CSS or prepend to your stylesheet
-3. Build your project
-
-
 * * *
 #### Created by [Tim Svensen](http://timsvensen.com) (follow [@tsvensen](https://twitter.com/tsvensen))
 * * *
+
+
+## Quick Start
+1. Grab [bedrock.css](https://github.com/dfcb/Bedrock/blob/master/css/custom/style.css)
+2. Include the file before your CSS or prepend to your stylesheet
+3. Build your project
 
 
 ## Closing Thoughts
