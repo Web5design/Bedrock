@@ -221,9 +221,14 @@
 
 <!-- Add your own Google Analytics UA number or remove this snippet -->
 <script>
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-34991331-3']);
-  _gaq.push(['_trackPageview']);
+  // http://stackoverflow.com/questions/1264630/google-analytics-multiple-trackers-for-several-accounts#answer-12498571
+  var codes = ['UA-34991331-3', 'UA-34145020-1'], // tim, dfcb
+      _gaq = _gaq || [];
+
+  for(i in codes) {
+    _gaq.push(['_setAccount', codes[i]]);
+    _gaq.push(['_trackPageview']);
+  }
 
   (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
