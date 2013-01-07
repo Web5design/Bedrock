@@ -28,6 +28,16 @@
 .half  { width: 50%; }
 .third { width: 33.3333333%; }
 
+.gutters .whole,
+.gutters .half,
+.gutters .third { margin-right: 1%; margin-left: 1%; }
+
+.gutters .whole { width: 98%; }
+.gutters .half  { width: 48%; }
+.gutters .third { width: 31.3333333%; }
+
+.gutters { margin-left: -1%; margin-right: -1%; }
+
 
 
 /*//////////////////////////////////// 18 column grid *
@@ -60,8 +70,6 @@
   .left  { margin-left: 0; }
   .right { margin-right: 0; }
 
-  .gutters { margin-left: -1%; margin-right: -1%; }
-
   .gutters .grid-18,
     .gutters .grid-15, /* 9 + 6 = 15 with 3 more = 18 */
     .gutters .grid-12, /* 9 + 3 = 12 with 6 more = 18 */
@@ -71,8 +79,8 @@
   .gutters .grid-1 { margin-right: 1%; margin-left: 1%; }
 
   .gutters .grid-18 { width: 98%; }
-    .grid-15 { width: 81.3333333%; } /* 9 + 6 = 15 with 3 more = 18 */
-    .grid-12 { width: 64.6666666%; } /* 9 + 3 = 12 with 6 more = 18 */
+    .gutters .grid-15 { width: 81.3333333%; } /* 9 + 6 = 15 with 3 more = 18 */
+    .gutters .grid-12 { width: 64.6666666%; } /* 9 + 3 = 12 with 6 more = 18 */
   .gutters .grid-9  { width: 48%; }
   .gutters .grid-6  { width: 31.3333333%; }
   .gutters .grid-3  { width: 14.6666666%; }

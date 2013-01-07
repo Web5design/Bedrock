@@ -21,7 +21,7 @@ h2 {
   margin-top: -.25em;
 }
 
-h3 { font-size: 1.75em; padding-bottom: .5em; }
+h3 { font-size: 2em;   padding-bottom: .25em; }
 h4 { font-size: 1.5em; padding-bottom: .5em; }
 
 code { font-size: .9em; color: #47363D; }
@@ -75,10 +75,8 @@ header {
 
 #author span {
   display: inline-block;
-  *display: block;
-  zoom: 1;
-
-  margin-top: 5px;
+    *display: block; zoom: 1;
+  margin-top: 2px;
 }
 
 #resize {
