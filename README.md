@@ -1,5 +1,5 @@
 # Bedrock
-A responsive, mobile first 18 column grid. A theoretical grid for today's layout challenges. Brake it, modify it, or extend your favorite grid framework with the mobile classes.
+A responsive, mobile first 18 column grid. A theoretical grid for today's layout challenges. Pull it apart, modify it, or extend your favorite grid framework with the mobile classes.
 
 Checkout the demo to [see Bedrock in action](http://dfcb.github.com/Bedrock/) and find documentation in css/bedrock.css.
 
