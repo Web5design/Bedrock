@@ -246,7 +246,7 @@ aside {
 #hide-grid-1 .grid-1 { display: none; }
 
 div.example { color: #AB9F9E; padding-bottom: 1.5em; }
-div.example em { color: #C83718; font-style: normal; }
+div.example em { color: #5E4851; font-style: normal; }
 
 h4.example { clear: both; }
 h4.example span { color: #AB9F9E; }
@@ -260,7 +260,7 @@ h4.example span { color: #AB9F9E; }
 
   #hide-grid-1 .grid-1 { display: block; }
 
-  div.example { color: #C83718; }
+  div.example { color: #5E4851; }
   div.example em { color: #AB9F9E; }
 
   h4.example { color: #AB9F9E; }
