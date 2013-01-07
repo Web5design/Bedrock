@@ -41,7 +41,7 @@
       <aside class="grid-6 right">
         <p>Bedrock includes:</p>
         <ul>
-          <li>Mobile first classes <code>.half</code> and <code>.third</code></li>
+          <li>Mobile first classes <code>.whole</code>, <code>.half</code> and <code>.third</code></li>
           <li>Optional <code>.gutters</code></li>
         </ul>
       </aside>
@@ -53,7 +53,7 @@
 
     <h3>Examples</h3>
     <p><em>Resize the browser</em> to see the example layouts change. Note the example copy and headings will change color indicating the current layout styling. Also, there is currently only one breakpoint.</p>
-    <p>The examples below show a few options available with the mobile first classes <code>.half</code> and <code>.thirds</code>. Checkout <a href="https://github.com/dfcb/Bedrock/blob/master/css/bedrock.css">bedrock.css</a> to learn more.</p>
+    <p>The examples below show a few options available with the mobile first classes <code>.whole</code>, <code>.half</code> and <code>.thirds</code>. Checkout <a href="https://github.com/dfcb/Bedrock/blob/master/css/bedrock.css">bedrock.css</a> to learn more.</p>
 
     <h4 class="example">Half : <span>12+6</span></h4>
     <div class="grid-container gutters example">
@@ -72,7 +72,7 @@
 
     <h4 class="example">Whole+Half : <span>6+6+6</span></h4>
     <div class="grid-container gutters example">
-      <div class="grid-6 left">6</div>
+      <div class="grid-6 left  whole">6 <em>.whole</em></div>
       <div class="grid-6 inner half">6 <em>.half</em></div>
       <div class="grid-6 right half">6 <em>.half</em></div>
     </div>
@@ -82,9 +82,16 @@
     <h3>Quick Start</h3>
     <ol>
       <li>Grab <a href="https://github.com/dfcb/Bedrock/blob/master/css/bedrock.css">bedrock.css</a></li>
-      <li>Include the file before your CSS or prepend to your stylesheet</li>
+      <li>Include the file before your stylesheet or prepend to your CSS</li>
+      <li>Update the media query in bedrock.css to respond correctly for your project</li>
+      <li>See the examples above in <a href="https://github.com/dfcb/Bedrock/blob/master/index.html">index.html</a> for a basic grid setup</li>
       <li>Build your project</li>
     </ol>
+
+    <ul>
+      <li>Optionally add gutters by adding <code>.gutters</code> to <code>.grid-container</code></li>
+      <li>Mobile classes: <code>.whole</code>, <code>.half</code> and <code>.third</code></li>
+    </ul>
 
 
 
@@ -140,7 +147,7 @@
 
 
 
-    <h3>The Grid Without <code><strike>.gutters</strike></code></h3>
+    <h4>The Grid Without <code><strike>.gutters</strike></code></h4>
 
     <div class="the-grid grid-container example">
       <div class="grid-18 left right">18</div>
@@ -188,7 +195,7 @@
 
 
     <h3>Closing Thoughts</h3>
-    <p>This project exists to explore a mobile first grid solution in a responsive web. Our goal is not to "muddy the waters" with more grid frameworks. As stated above, it's really to demonstrate the mobile approach and a utility best.</p>
+    <p>This project exists to explore a mobile first grid solution in a responsive web. Our goal is not to "muddy the waters" with more grid frameworks. As stated above, it's here to demonstrate a mobile first approach and is a utility at best.</p>
 
     <p>Help improve Bedrock:</p>
     <ul>

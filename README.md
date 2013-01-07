@@ -11,8 +11,21 @@ Checkout the demo to [see Bedrock in action](http://dfcb.github.com/Bedrock/) an
 
 ## Quick Start
 1. Grab [bedrock.css](https://github.com/dfcb/Bedrock/blob/master/css/custom/style.css)
-2. Include the file before your CSS or prepend to your stylesheet
-3. Build your project
+2. Include the file before your stylesheet or prepend to your CSS
+3. Update the media query in bedrock.css to respond correctly for your project
+4. See the examples in [index.html](https://github.com/dfcb/Bedrock/blob/master/index.html) for a basic grid setup
+5. Build your project
+
+* Optionally add gutters by adding <code>.gutters</code> to <code>.grid-container</code>
+* Mobile classes: <code>.whole</code>, <code>.half</code> and <code>.third</code> 
+
+
+## The Grid
+<pre>                   18
+             9            9
+      6            6             6
+  3      3      3      3      3     3
+1 1 1  1 1 1  1 1 1  1 1 1  1 1 1  1 1 1</pre>
 
 
 ## Closing Thoughts
