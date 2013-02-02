@@ -1,3 +1,6 @@
+## Extra Strength Responsive Grids
+We now recommend the Bedrock influenced [Extra Strength Responsive Grids](http://dfcb.github.com/extra-strength-responsive-grids/). Check out the awesomeness.
+
 # Bedrock
 A responsive, mobile first 18 column grid. A theoretical grid for today's layout challenges. Pull it apart, modify it, or extend your favorite grid framework with the mobile classes.
 
